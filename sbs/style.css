@@ -1,0 +1,154 @@
+*,
+*:after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+	transition:all 0.5s linear;
+}
+body{
+    padding: 0;
+    margin: 0;   
+}
+h3{
+    font-weight: 700;
+}
+h2{
+    color: #000;
+    font-weight: 900;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Cabin', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #272727;
+}
+i{
+    color: #00C799;
+}
+/* ========= header area ======= */
+
+.header-area img{
+    width: 150px;
+    height: auto;
+}
+.header-area .dropdown-menu span{
+    background-color: #F34C37;
+    color: #fff;
+    font-size: 11px;
+}
+.header-area .button button{
+    padding: 5px 13px;
+    border: none;
+    border-radius: 3px;
+}
+.header-area .button button:last-child{
+    background-color: #00C799;
+    border: none;
+
+}
+
+/* container area */
+.container-area .custom img{
+    width: 100px;
+
+}
+.custom{
+    display: flex;
+}
+.container-area{
+    background-color: #F8F9FB;
+}
+.custom-h2{
+    font-size: 35px;
+    display: flex;
+    color: #F34C37;
+
+}
+.btn button{
+    width: 80%;
+    justify-content: space-around;
+    height: 50px;
+    background-color: #00C799;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+/* Payment-Options area */
+.Payment-Options .btnn{
+    font-size: 20px;
+    font-weight: 100;
+    padding: 0 15px;
+    border: 1px solid #0075DE;
+    color: #0075DE;
+    font-weight: 100;
+
+}
+.Payment-Options .btnn:hover{
+    background-color: #0075DE;
+    color: #fff;
+}
+.Payment-Options{
+    background-color: #F8F9FB;
+    font-family: sans-serif;
+}
+.bank-logo img{
+    width: 15%;
+    border:  1px solid #00C799;
+    padding: 38px 12px 38px 12px;
+    border-radius: 100%;
+}
+.bank-logo-2 img{
+    width: 15%;
+    border:  1px solid #00C799;
+    padding: 38px 12px 38px 12px;
+    border-radius: 100%;
+}
+.bank-logo-3 img{
+    width: 15%;
+    border:  1px solid #00C799;
+    padding: 38px 12px 38px 12px;
+    border-radius: 100%;
+}
+.first-card{
+    box-shadow: 0 5px 25px  rgba(168, 169, 171, 0.8);
+}
+.bank-logo{
+    display: flex;
+}
+.bank-logo-2{
+    display: flex;
+}
+.bank-logo-3{
+    display: flex;
+}
+.bank-logo .pp{
+    display: flex;
+    align-items: center;
+}
+.bank-logo-2 .pp{
+    display: flex;
+    align-items: center;
+}
+.bank-logo-3 .pp{
+    display: flex;
+    align-items: center;
+}
+/* footer-menu */
+.footer-menu{
+    background-color: #0c0c0c;
+}
+.footer-menu a{
+    text-decoration: none;
+    overflow: hidden;
+    color: #fff;
+    transition-duration: 300ms;
+}
+.footer-menu a:hover{
+    color: #0F68B8;
+}
+.footer-menu li{
+    overflow: hidden;
+}

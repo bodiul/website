@@ -1,0 +1,201 @@
+*,
+*:after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+	transition:all 0.5s linear;
+    font-family: 'Cabin', sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;   
+}
+h3{
+    font-weight: 700;
+}
+h2{
+    color: #000;
+    font-weight: 900;
+    text-align: center;
+    font-size: 55px;
+}
+/* ========= header area ======= */
+
+.header-area img{
+    width: 150px;
+    height: auto;
+}
+.header-area .dropdown-menu span{
+    background-color: #F34C37;
+    color: #fff;
+    font-size: 11px;
+}
+.header-area .button button{
+    padding: 5px 13px;
+    border: none;
+    border-radius: 3px;
+}
+.header-area .button button:last-child{
+    background-color: #00C799;
+    border: none;
+
+}
+
+/* container area */
+
+.container-area{
+    background-color: #29A9EE;
+}
+.container-area .typed{
+    font-size: 30px;
+    color: #fff;
+}
+.container-area .typed span{
+    background-color: #FFEA00;
+    padding: 0 10px;
+    font-weight: bolder;
+}
+.disply{
+    display: flex;
+}
+.disply .bold{
+    font-weight: 900;
+    font-size: 3rem;
+    font-family: 'Cabin', sans-serif;
+}
+.container-area .button button{
+    width: 50%;
+    height: 50px;
+    font-weight: 900;
+    color: #33475B;
+    border: none;
+    outline: none;
+}
+.button-1 button{
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: #FFEA00;
+    border-radius: 5px;
+    font-weight: 400;
+    box-shadow: 0 5px 25px  rgba(14,21,37,0.8);
+}
+.button-1{
+    margin-top: 60px;
+}
+/* SEOPanel area */
+.hb h3{
+    font-size: 35px;
+    color: #33475B;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.hb{
+    box-shadow: 0 5px 25px  rgb(199, 198, 198);
+    border-radius: 5px;
+}
+
+/* Boost-Your-Rank area */
+.Boost-Your-Rank{
+    background-color: #F8F9FB;
+}
+.Boost-Your-Rank-para p{
+    font-size: 25px;
+}
+.Boost-Your-Rank-para button{
+    width: 200px;
+    height: 50px;
+    background-color: #0075DE;
+    border: none;
+    font-weight: 800;
+    color: #fff;
+    border-radius: 5px;
+}
+.Boost-Your-Rank-para button:hover{
+    box-shadow: 0 5px 25px  rgb(108, 105, 105);   
+}
+/* SEOeStore-area */
+.SEOeStore-area{
+    background-color: #00B6AB;
+}
+.border{
+    border-right: 5px solid #fff;
+}
+/* Our-Services */
+.Our-Services h3{
+    text-transform: capitalize;
+    font-size: 35px;
+    padding-bottom: 35px;
+}
+.box-shadow{
+    box-shadow: 0 5px 25px  rgb(154, 152, 152);  ;
+}
+.box-shadow img{
+    width: 80%;
+    height: auto;
+}
+.box-shadow button{
+  width: 40%;
+  height: 30px;
+  border: 1px solid #fff;
+  background-color: #0075DE;
+  color: #fff;
+}
+.box-shadow button:hover{
+    background-color: #ffffff;
+  color: #000000;
+}
+/* Money-Back-Guarantee */
+.Money-Back-Guarantee{
+    background-color: #00B9A9;
+}
+.Money-Back-Guarantee img{
+    width: 80%;
+}
+.Money-Back-Guarantee span{
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+}
+.Money-Back-Guarantee a{
+    color: #fff;
+    text-align: right;
+}
+/* access-area */
+.access-area{
+    background-color: #33475B;
+}
+.access-area h3{
+    font-size: 35px;
+    font-weight: 900;
+    color: #fff; 
+}
+.access-area .button button{
+    width: 30%;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-weight: 900;
+    color: #212529;
+    margin-top: 35px;
+    border-radius: 5px;
+}
+/* footer-menu */
+.footer-menu{
+    background-color: #0c0c0c;
+}
+.footer-menu a{
+    text-decoration: none;
+    overflow: hidden;
+    color: #fff;
+    transition-duration: 300ms;
+}
+.footer-menu a:hover{
+    color: #0F68B8;
+}
+.footer-menu li{
+    overflow: hidden;
+}
